@@ -21,12 +21,7 @@ price_eth_pro = round(price_eth, 3) * eth_price
 eth = eth_price - price_eth_pro
 
 
-print(f"Стоимость без ETH влияния BTC составляет: {eth_price_without_btc:.2f} USDT")
+print(f"Стоимость без ETH влияния BTC составляет: {eth_price_without_btc:.2f}")
 print(f"Стоимость ETH без влияния BTC в процентном соотношении составляет: {eth_price_without_btc_in_pro:.2f}% USDT или {math.ceil(price_eth_pro)} USDT")
 print(f"Стоимость ETH без влияния BTC : {eth:.2f} USDT")
 
-
-
-
-
-# !!!!!!!!!!!{:.2f} - отображение чисел с разделением групп разрядов запятыми и двумя знаками после запятой.!!!!!!!!!
